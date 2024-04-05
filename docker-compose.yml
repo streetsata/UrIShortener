@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  urishortener:
+    image: ${DOCKER_REGISTRY-}urishortener
+    container_name: UrlShortener.Api
+    build:
+      context: .
+      dockerfile: UrIShortener/Dockerfile
+    ports:
+        - "5001:443"
+  
+  urishortener-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: UrlShortener.Api
+    volumes:
+        - ./.containers/database:/var/opt/mssql/data
+    ports:
+        - "1433:1433"
+    environment:
+        ACCEPT_EULA: "Y"
+        SA_PASSWORD: "Abudfv321asv#@1"
