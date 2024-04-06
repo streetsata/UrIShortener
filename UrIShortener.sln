@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DAB16C04-D94
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrIShortener", "UrIShortener\UrIShortener.csproj", "{C2AE0862-A240-44AB-B0AB-A7D7594A5025}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6B065819-3CB6-45F7-B59C-DEB135C6BB74}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EB067506-E8CF-413A-B74B-B6DDFD192038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		{C2AE0862-A240-44AB-B0AB-A7D7594A5025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2AE0862-A240-44AB-B0AB-A7D7594A5025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2AE0862-A240-44AB-B0AB-A7D7594A5025}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B065819-3CB6-45F7-B59C-DEB135C6BB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B065819-3CB6-45F7-B59C-DEB135C6BB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B065819-3CB6-45F7-B59C-DEB135C6BB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B065819-3CB6-45F7-B59C-DEB135C6BB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB067506-E8CF-413A-B74B-B6DDFD192038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB067506-E8CF-413A-B74B-B6DDFD192038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB067506-E8CF-413A-B74B-B6DDFD192038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB067506-E8CF-413A-B74B-B6DDFD192038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

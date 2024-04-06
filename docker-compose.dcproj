@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>6b065819-3cb6-45f7-b59c-deb135c6bb74</ProjectGuid>
+    <ProjectGuid>eb067506-e8cf-413a-b74b-b6ddfd192038</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>urishortener</DockerServiceName>
